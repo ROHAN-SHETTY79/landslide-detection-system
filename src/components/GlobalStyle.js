@@ -7,10 +7,11 @@ const GlobalStyle = createGlobalStyle`
     }
     body{
         @media (max-width: 780px) {
-           display: flex;
+            display: flex;
            align-items: center;
            justify-content: center;
            justify-items: center;
+           padding: 1%;
         }
     }
 
