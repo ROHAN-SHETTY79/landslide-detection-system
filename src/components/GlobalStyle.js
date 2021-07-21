@@ -6,7 +6,8 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box; 
     }
     body{
-        @media (max-width: 500px) {
+        @media (max-width: 780px) {
+           display: flex;
            align-items: center;
            justify-content: center;
            justify-items: center;
